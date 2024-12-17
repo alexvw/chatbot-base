@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.chatbot-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.chatbot-container h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* If you want to display chatbots side by side */
+@media (min-width: 1200px) {
+  .App {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .chatbot-container {
+    width: 45%;
+  }
+}
