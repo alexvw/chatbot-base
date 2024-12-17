@@ -1,0 +1,13 @@
+{
+  "general": {
+    "primaryColor": "#005596",
+    "secondaryColor": "#19C37D",
+    "showFooter": false
+  },
+  "header": {
+    "showAvatar": false
+  },
+  "botBubble": {
+    "simStream": true
+  }
+}
